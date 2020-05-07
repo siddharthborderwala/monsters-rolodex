@@ -26,19 +26,19 @@ export const Modal = ({ user }) => {
           </div>
         </div>
         <div className="modal__location">
-          <h2>Location</h2>
+          <h2 className="blue">Location</h2>
           <p>{user.address.street}</p>
           <p>{user.address.suite}</p>
           <p>{user.address.city}</p>
           <p>{user.address.zipcode}</p>
         </div>
         <div className="modal__contact">
-          <h3>
+          <h3 className="blue">
             Phone
             <br />
             <span>{user.phone}</span>
           </h3>
-          <h3>
+          <h3 className="blue">
             Website
             <br />
             <span>
@@ -53,7 +53,7 @@ export const Modal = ({ user }) => {
           </h3>
         </div>
         <div className="modal__company">
-          <h2>Company Information</h2>
+          <h2 className="blue">Company Information</h2>
           <p>{user.company.name}</p>
           <p>{user.company.catchPhrase}</p>
           <p>{user.company.bs}</p>

@@ -16,6 +16,7 @@ export const SearchBox = (props) => {
           props.onSearchTextValueChange(e.target.value);
         }}
         className="searchbox__input"
+        placeholder="Search a monster"
       />
       <svg className="cross" onClick={clearSearch}>
         <use xlinkHref="/solid.svg#times-circle"></use>
